@@ -8,7 +8,7 @@ import { Copy } from "lucide-react";
 
 export default function EntJsonFormatterApp() {
   const [input, setInput] = useState("");
-  const [results, setResults] = useState([]);
+  const [results, setResults] = useState<any[]>([]);
 
   const parseInput = () => {
     const blocks = input.trim().split(/\n(?=\d+\.)/); // разделение по номерам
