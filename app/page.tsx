@@ -52,7 +52,7 @@ export default function EntJsonFormatterApp() {
         placeholder="Вставьте задания: каждый с номером и вариантами ответов"
         className="min-h-[200px]"
       />
-      <Button onClick={parseInput} className="mt-2">Преобразовать</Button>
+      <Button onClick={parseInput} className="mt-2">Форматировать</Button>
 
       {results.map((res: any) => (
 
