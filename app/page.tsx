@@ -54,7 +54,8 @@ export default function EntJsonFormatterApp() {
       />
       <Button onClick={parseInput} className="mt-2">Преобразовать</Button>
 
-      {results.map((res) => (
+      {results.map((res: any) => (
+
         <div key={res.number} className="space-y-4">
           <h2 className="text-lg font-semibold">Вопрос {res.number}</h2>
 
